@@ -1,0 +1,14 @@
+G:\SteamLibrary\steamapps\common\sbox\.vs\output\portal_s2.xml
+G:\SteamLibrary\steamapps\common\sbox\.vs\output\portal_s2.deps.json
+G:\SteamLibrary\steamapps\common\sbox\.vs\output\portal_s2.dll
+G:\SteamLibrary\steamapps\common\sbox\.vs\output\portal_s2.pdb
+d:\documents\s&box projects\portal_s2\code\obj\Debug\portal_s2.csproj.AssemblyReference.cache
+d:\documents\s&box projects\portal_s2\code\obj\Debug\portal_s2.GeneratedMSBuildEditorConfig.editorconfig
+d:\documents\s&box projects\portal_s2\code\obj\Debug\portal_s2.AssemblyInfoInputs.cache
+d:\documents\s&box projects\portal_s2\code\obj\Debug\portal_s2.AssemblyInfo.cs
+d:\documents\s&box projects\portal_s2\code\obj\Debug\portal_s2.csproj.CoreCompileInputs.cache
+d:\documents\s&box projects\portal_s2\code\obj\Debug\portal_s2.csproj.CopyComplete
+d:\documents\s&box projects\portal_s2\code\obj\Debug\portal_s2.dll
+d:\documents\s&box projects\portal_s2\code\obj\Debug\refint\portal_s2.dll
+d:\documents\s&box projects\portal_s2\code\obj\Debug\portal_s2.pdb
+d:\documents\s&box projects\portal_s2\code\obj\Debug\ref\portal_s2.dll

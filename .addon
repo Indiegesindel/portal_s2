@@ -1,0 +1,30 @@
+{
+  "Title": "Portal Source2",
+  "Type": "game",
+  "Org": "local",
+  "Ident": "portal_s2",
+  "Tags": "",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": [],
+  "HasCode": true,
+  "CodePath": "/code/",
+  "Metadata": {
+    "MaxPlayers": 1,
+    "MinPlayers": 1,
+    "GameNetworkType": "Singleplayer",
+    "MapSelect": "Tagged",
+    "MapList": [
+      "dev_test"
+    ],
+    "RankType": "None",
+    "PerMapRanking": false,
+    "LeaderboardType": "None",
+    "ProjectTemplate": null,
+    "ControlModes": {
+      "Keyboard": true,
+      "Gamepad": true
+    }
+  }
+}

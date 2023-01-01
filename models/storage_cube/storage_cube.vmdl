@@ -1,0 +1,140 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						name = "Default"
+						remaps = 
+						[
+							{
+								from = "acmat_0.vmat"
+								to = "materials/storage_cube/storage_cube_default_default.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "DefaultActive"
+						remaps = 
+						[
+							{
+								from = "materials/storage_cube/storage_cube_default_default.vmat"
+								to = "materials/storage_cube/storage_cube_default_active.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "Old"
+						remaps = 
+						[
+							{
+								from = "materials/storage_cube/storage_cube_default_default.vmat"
+								to = "materials/storage_cube/storage_cube_old_default.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "OldActive"
+						remaps = 
+						[
+							{
+								from = "materials/storage_cube/storage_cube_default_default.vmat"
+								to = "materials/storage_cube/storage_cube_old_active.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "Companion"
+						remaps = 
+						[
+							{
+								from = "materials/storage_cube/storage_cube_default_default.vmat"
+								to = "materials/storage_cube/companion_cube_default_default.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "CompanionActive"
+						remaps = 
+						[
+							{
+								from = "materials/storage_cube/storage_cube_default_default.vmat"
+								to = "materials/storage_cube/companion_cube_default_active.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "storage_cube"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/storage_cube/storage_cube.obj"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/storage_cube/storage_cube.obj"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ -90.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}
