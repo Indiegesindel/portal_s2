@@ -160,6 +160,7 @@ public partial class Player : AnimatedEntity
 	protected void PostCameraUpdate()
 	{
 		PlayerCamera?.Update( this );
+		PortalGun?.UpdateCamera();
 
 		// Apply camera modifiers after a camera update.
 		CameraModifier.Apply();
@@ -176,8 +177,7 @@ public partial class Player : AnimatedEntity
 		Controller?.FrameSimulate( cl );
 		Animator?.FrameSimulate( cl );
 
-		Camera.Main.SetViewModelCamera( Camera.FieldOfView + 8.0f );
-		PortalGun.UpdateCamera();
+		Camera.Main.SetViewModelCamera( Camera.FieldOfView - 20.0f );
 	}
 
 	[ClientRpc]

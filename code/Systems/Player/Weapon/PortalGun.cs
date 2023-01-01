@@ -14,8 +14,7 @@ public partial class PortalGun : BaseViewModel
 	public enum State { None, Single, Full };
 	public State CurrentState { get; protected set; } = State.Full;
 
-	//public static Model PortalgunModel = Model.Load( "models/v_portal_gun/v_portal_gun.vmdl" );
-	public static Model PortalgunModel = Model.Load( "weapons/rust_pistol/v_rust_pistol.vmdl" );
+	public static Model PortalgunModel = Model.Load( "models/v_portal_gun/v_portal_gun.vmdl" );
 
 	float walkBob = 0;
 
@@ -39,9 +38,7 @@ public partial class PortalGun : BaseViewModel
 		var rotationDistance = Rotation.Distance( Camera.Rotation );
 
 		Position = Camera.Position;
-		//Rotation = Rotation.Lerp( Rotation, Camera.Rotation, RealTime.Delta * rotationDistance * 1.1f );
-		Rotation = Camera.Rotation;
-		return;
+		Rotation = Rotation.Lerp( Rotation, Camera.Rotation, RealTime.Delta * rotationDistance * 2f );
 
 		if ( Game.LocalPawn.LifeState == LifeState.Dead )
 			return;
@@ -60,11 +57,14 @@ public partial class PortalGun : BaseViewModel
 
 		Position += up * MathF.Sin( walkBob ) * speed * -0.6f;
 		Position += left * MathF.Sin( walkBob * 0.5f ) * speed * -0.3f;
+
+		SetAnimParameter( "fizzle", true );
 	}
 
 	public void Fizzle()
 	{
-
+		Log.Info( "PortalGun > Fizzle" );
+		SetAnimParameter( "fizzle", true );
 	}
 
 	public void Shoot(bool isPrimary)

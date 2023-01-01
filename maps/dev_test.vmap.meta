@@ -1,5 +1,7 @@
 {
   "cloud_packages": [],
-  "game_packages": [],
+  "game_packages": [
+    "local.portal_s2"
+  ],
   "addon_packages": []
 }
