@@ -13,7 +13,7 @@ public partial class PlayerCamera
 	{
 		Camera.Position = player.EyePosition;
 		Camera.Rotation = player.EyeRotation;
-		Camera.FieldOfView = Game.Preferences.FieldOfView;
+		Camera.FieldOfView = Game.Preferences.FieldOfView + 15.0f;
 		Camera.FirstPersonViewer = player;
 		Camera.ZNear = 0.5f;
 

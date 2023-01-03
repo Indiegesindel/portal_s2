@@ -16,6 +16,7 @@
     "GameNetworkType": "Singleplayer",
     "MapSelect": "Tagged",
     "MapList": [
+      "testchmb_a_00",
       "dev_test"
     ],
     "RankType": "None",

@@ -4,6 +4,9 @@ Layer0
 {
 	shader "shaders/glass.shader"
 
+	//---- Blending ----
+	F_ADDITIVE_BLEND 1
+
 	g_flDirectionalLightmapMinZ "0.050"
 	g_flDirectionalLightmapStrength "1.000"
 
