@@ -3,11 +3,13 @@ using Sandbox;
 
 namespace Indiegesindel.PortalS2;
 
+// TODO: Add Logic
 /// <summary>
 /// A volume that cleans players Portals and Objects
 /// </summary>
 [Library( "trigger_fizzler" ), HammerEntity, Solid]
 [Title( "Trigger Fizzler" ), Category( "Triggers" ), Icon( "done_all" )]
+[AutoApplyMaterial( "materials/tools/toolstrigger.vmat" )]
 public partial class TriggerMultiple : BaseTrigger
 {
 	/// <summary>

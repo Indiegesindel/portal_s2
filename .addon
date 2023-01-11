@@ -1,7 +1,7 @@
 {
   "Title": "Portal Source2",
   "Type": "game",
-  "Org": "local",
+  "Org": "indiegesindel",
   "Ident": "portal_s2",
   "Tags": "",
   "Schema": 1,
@@ -26,6 +26,10 @@
     "ControlModes": {
       "Keyboard": true,
       "Gamepad": true
-    }
+    },
+    "Summary": "This project aims to recreate certain aspects of Portal/Portal2 in Source 2",
+    "Description": "This project aims to recreate certain aspects of Portal/Portal2 in Source 2",
+    "Public": true,
+    "ReplaceTags": "portal portal2 source1 aperture"
   }
 }
